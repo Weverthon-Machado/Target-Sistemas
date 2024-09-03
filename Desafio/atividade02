@@ -1,0 +1,27 @@
+Início
+    Ler n
+
+    a <- 0
+    b <- 1
+
+    Se n = 0 ou n = 1 então
+        Escrever "O número pertence à sequência de Fibonacci."
+        Fim
+    FimSe
+
+    Enquanto b < n faça
+        fibonacci <- a + b
+        a <- b
+        b <- fibonacci
+        
+        Se fibonacci = n então
+            Escrever "O número pertence à sequência de Fibonacci."
+            Fim
+        FimSe
+    FimEnquanto
+
+    Se fibonacci > n então
+        Escrever "O número não pertence à sequência de Fibonacci."
+    FimSe
+
+Fim
